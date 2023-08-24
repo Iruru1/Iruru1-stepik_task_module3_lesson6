@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 #Тест, который проверяет, что страница товара на сайте содержит кнопку добавления в корзину. 
 
 class TestMain():
-    def test_language(self,browser):
+    def test_visibility_button_basket(self,browser):
         # проверить, что загрузилась кнопка
         link="http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         browser.get(link)
